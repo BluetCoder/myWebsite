@@ -1,44 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="google" value="notranslate">
-  <meta name="viewport" content="width=device-width"/>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rock+3D&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <title>Joshua Sy | Software Engineer</title>
-
-<body>
-    <div class="navigation">
-        <div class="hamburger-wrap">
-            <i class="fa fa-bars" id="hamburger"></i>
-            <i class="fa fa-times" id="cross"></i>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="google" value="notranslate">
+        <meta name="viewport" content="width=device-width"/>
+        <title>Joshua Sy | Joshua Sy</title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="navigation">
+            <div class="hamburger-wrap">
+                <i class="fa fa-bars" id="hamburger"></i>
+                <i class="fa fa-times" id="cross"></i>
+            </div>
+            <ul>
+                <li><a href="#home" id="home-link" class="active">HOME</a></li>
+                <li><a href="#about" id="about-link">ABOUT</a></li>
+                <li><a href="#portfolio" id="portfolio-link">PORTFOLIO</a></li>
+                <li><a href="#contact" id="contact-link">CONTACT</a></li>
+                <a href="/documents/resume.pdf" target="_blank"><li class="resume-link">RESUME</li></a>
+            </ul>
         </div>
-        <ul>
-            <li><a href="#home" id="home-link" class="active">HOME</a></li>
-            <li><a href="#about" id="about-link">ABOUT</a></li>
-            <li><a href="#portfolio" id="portfolio-link">PORTFOLIO</a></li>
-            <li><a href="#contact" id="contact-link">CONTACT</a></li>
-            <li><a>BLOG</a></li>
-            <a href="/documents/resume.pdf" target="_blank"><li class="resume-link">RESUME</li></a>
-        </ul>
-    </div>
-
-          <!-- Anchor tag for smooth scrolling -->
+        <!-- Anchor tag for smooth scrolling -->
         <a name="home" id="home"></a>
         <div class="banner">
             <div class="container">
                 <div class="row">
                     <div class="abstract">
-                        <h1 class="heading">Hi, my name is</h1>
-                        <br>
-                        <h1 class="heading">Joshua Sy</h1>
+                        <h1 class="heading"></h1>
                         <div class="subtitle">
-                            <h3 class="subtitle-text">I am a university student studying sofwtare engineering</h3>
+                            <h3 class="role">University student studying Biotechnology</h3>
+                            <h3 class="role"> and Software Engineering </h3>
                         </div>
                     </div>
                 </div>
@@ -47,35 +42,250 @@
                 <a href="#about"><i class="fa fa-chevron-down"></i>
             </div>
         </div>
+        <!-- Anchor tag for smooth scrolling -->
         <a name="about" id="about"></a>
         <div class="about-section">
             <div class="container">
                 <div class="row">
-                    <div class="about-left">
+                    <div class="about-left col-lg-4" data-aos="fade-right" data-aos-duration="400">
                         <div class="portrait-wrapper text-center">
                             <div class="portrait"></div>
                             <div class="social-links">
-                                <a href="https://github.com/chungeric" target="_blank"><i class="fa-brands fa-github"></i></a>
-                                <a href="https://www.linkedin.com/in/eric96/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                <a href="https://www.freecodecamp.org/chungeric" target="_blank"><i class="fa fa-free-code-camp"></i></a>
+                                <a href="https://github.com/BluetCoder" target="_blank"><i class="fa fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/joshua-sy-02a90a212/" target="_blank"><i class="fa fa-linkedin"></i></a>                            
                             </div>
                             <div class="about-resume-link">
                                 <a href="/documents/resume.pdf" target="_blank"><i class="fa fa-download"></i> RESUME</a>
-                            </div>
-                            <div class="about-mockup-link">
-                                <a href="/documents/portfolio-mockup.psd"><i class="fa fa-download"></i> PHOTOSHOP MOCKUP</a>
                             </div>
                         </div>
                     </div>
                     <div class="about-right col-lg-7" data-aos="flip-left" data-aos-duration="400" data-aos-delay="250">
                         <h2>About Me</h2>
-                        <p>I am a University Student seeking employment and eager to work in a dynamic organisation. I enjoy coding and would like to develop my coding skills and learn new coding languages.</p>
-                        <p>I relish in the prospect in solving problems and creating applications. I also enjoy helping my peers who might be struggling in a concept in coding or need a hand in debugging.</p>
+                        <p>I am a university student at UNSW studying biotechnology and software engineering at UNSW. When I'm not studying, I play basketball at my local park, playing games online with my friends or create and learn new tools in adobe applications. </p>
+                        <p>I enjoy coding because I love solving problems. The joy in finally making your code work is exhilarating. I relish the prospect of solving problems and creating applications. I like learning new coding languages as each language has their own features showing me new ways to tackle problems. I also enjoy helping my peers who might be struggling with a concept in coding or need a hand in debugging.</p>
                     </div>
                 </div>
             </div>
         </div>
-
-<script src="js/main.js"></script>
-</body>
+        <div class="skills-section">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-wrapper">
+                    <div class="row skill-row" data-aos="zoom-in-right" data-aos-duration="200">
+                        <div class="col-5 offset-1 col-md-4 offset-md-1">
+                            C Language
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width:80%;"></div>
+                            </div>
+                        </div>
+                        <div class="col-5 col-md-4 offset-md-2">
+                            Python
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width:90%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row skill-row" data-aos="zoom-in-right" data-aos-duration="200">
+                        <div class="col-5 offset-1 col-md-4 offset-md-1">
+                            Java
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width:70%;"></div>
+                            </div>
+                        </div>
+                        <div class="col-5 col-md-4 offset-md-2">
+                            Shell
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width:60%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row skill-row" data-aos="zoom-in-right" data-aos-duration="200">
+                        <div class="col-5 offset-1 col-md-4 offset-md-1">
+                            Perl
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width:50%;"></div>
+                            </div>
+                        </div>
+                        <div class="col-5 col-md-4 offset-md-2">
+                            PostgreSQL
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width:50%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row skill-row" data-aos="zoom-in-right" data-aos-duration="200">
+                        <div class="col-5 offset-1 col-md-4 offset-md-1">
+                            HTML
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width:60%;"></div>
+                            </div>
+                        </div>
+                        <div class="col-5 col-md-4 offset-md-2">
+                            CSS
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width:60%;"></div>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="row skill-row" data-aos="zoom-in-right" data-aos-duration="200">
+                        <div class="col-5 offset-1 col-md-4 offset-md-1">
+                            JavaScript
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width:60%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Anchor tag for smooth scrolling -->
+        <a name="portfolio" id="portfolio"></a>
+        <div class="portfolio-section">
+            <div class="container">
+                <h2>Portfolio</h2>
+                <div class="portfolio-wrapper">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6 col-xl-4 portfolio-card-wrap">
+                            <div class="card" style="width: 20rem;" data-aos="zoom-in" data-aos-duration="200">
+                                <div class="card-top-wrapper">
+                                    <img class="card-img-top" src="/images/portfolio/pokeball.png">
+                                    <div class="card-img-overlay">
+                                        <p class="card-text">Pokemon Pokedex</p>
+                                        <p class="card-text"><small class="text-muted">Built using C</small></p>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <h4 class="card-title">Pokedex</h4>
+                                    <p class="card-text">A university assignment for comp1511 where I made a pokemon pokedex in C using structs and linked lists.</p>
+                                    <p class="card-text"><small class="text-muted">Built using C</small></p>
+                                    <a href="https://github.com/BluetCoder/comp1511_pokedex" target="_blank" class="btn btn-primary">See the code on Github</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-4 portfolio-card-wrap">
+                            <div class="card" style="width: 20rem;" data-aos="zoom-in" data-aos-duration="200">
+                                <div class="card-top-wrapper">
+                                    <img class="card-img-top" src="/images/portfolio/git_icon.png">
+                                    <div class="card-img-overlay">
+                                        <p class="card-text">Girt</p>
+                                        <p class="card-text"><small class="text-muted">Built using Shell</small></p>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <h4 class="card-title">Girt</h4>
+                                    <p class="card-text">A university assignment in which I had to recreate git commands using shell</p>
+                                    <p class="card-text"><small class="text-muted">Built using Shell</small></p>
+                                    <a href="https://github.com/BluetCoder/comp2041_girt_master" target="_blank" class="btn btn-primary">See the code on Github</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-4 portfolio-card-wrap">
+                            <div class="card" style="width: 20rem;" data-aos="zoom-in" data-aos-duration="200">
+                                <div class="card-top-wrapper">
+                                    <img class="card-img-top" src="/images/portfolio/perl_logo.png">
+                                    <div class="card-img-overlay">
+                                        <p class="card-text">Speed</p>
+                                        <p class="card-text"><small class="text-muted">Built using Perl</small></p>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <h4 class="card-title">Speed</h4>
+                                    <p class="card-text">Using Perl, I implemented some of the commands of Sed</p>
+                                    <p class="card-text"><small class="text-muted">Built using Perl</small></p>
+                                    <a href="https://github.com/BluetCoder/comp2041_speed" target="_blank" class="btn btn-primary">See the code on Github</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-4 portfolio-card-wrap">
+                            <div class="card" style="width: 20rem;" data-aos="zoom-in" data-aos-duration="200">
+                                <div class="card-top-wrapper">
+                                    <img class="card-img-top" src="/images/portfolio/dungeon_mania.png">
+                                    <div class="card-img-overlay">
+                                        <p class="card-text">Dungeon Mania</p>
+                                        <p class="card-text"><small class="text-muted">Built using Java</small></p>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <h4 class="card-title">Dungeon mania</h4>
+                                    <p class="card-text">A team of 5 university students built the backend of Dungeon mania using Java and object orienting programming</p>
+                                    <p class="card-text"><small class="text-muted">Built using Java</small></p>
+                                    <a href="https://github.com/BluetCoder/comp2511_dungeon_mania" target="_blank" class="btn btn-primary">See the code on Github</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-4 portfolio-card-wrap">
+                            <div class="card" style="width: 20rem;" data-aos="zoom-in" data-aos-duration="200">
+                                <div class="card-top-wrapper">
+                                    <img class="card-img-top" src="/images/portfolio/flock_logo.jpg">
+                                    <div class="card-img-overlay">
+                                        <p class="card-text">Flockr</p>
+                                        <p class="card-text"><small class="text-muted">Built using Python</small></p>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <h4 class="card-title">Flockr</h4>
+                                    <p class="card-text">A team of 5 university students built the backend of Flockr, a communication app, using Python.</p>
+                                    <p class="card-text"><small class="text-muted">Built using Python</small></p>
+                                    <a href="https://github.com/BluetCoder/comp1531_flockr" target="_blank" class="btn btn-primary">See the code on Github</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-4 portfolio-card-wrap">
+                            <div class="card" style="width: 20rem;" data-aos="zoom-in" data-aos-duration="200">
+                                <div class="card-top-wrapper">
+                                    <img class="card-img-top" src="/images/portfolio/mips.png">
+                                    <div class="card-img-overlay">
+                                        <p class="card-text">SMIPS</p>
+                                        <p class="card-text"><small class="text-muted">Built using C</small></p>
+                                    </div>
+                                </div>
+                                <div class="card-block">
+                                    <h4 class="card-title">SMIPS</h4>
+                                    <p class="card-text">An emulator for small simple subset of the MIPS</p>
+                                    <p class="card-text"><small class="text-muted">Built using C</small></p>
+                                    <a href="https://github.com/BluetCoder/comp1521_smips.git" target="_blank" class="btn btn-primary">See the code on Github</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Anchor tag for smooth scrolling -->
+        <a name="contact" id="contact"></a>
+        <div class="contact-section">
+            <div class="container">
+                <h2>Contact</h2>
+                <div class="row">
+                    <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+                        <form method="POST" action="https://formspree.io/f/xbjwzryz">
+                            <div class="form-group">
+                                <label for="contact-email">Your email address:</label>
+                                <input type="email" class="form-control" name="email" id="contact-email" placeholder="Type your email here so I can get back to you!" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="msg-subject">Subject:</label>
+                                <input type="text" class="form-control" name="msg-subject" placeholder="What is your message about?" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="msg-content">Message:</label>
+                                <textarea rows="7" class="form-control" name="message" id="msg-content" placeholder="Type your message here." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send <i class="fa fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <a href="https://github.com/BluetCoder" target="_blank"><i class="fa fa-github footer-link"></i></a>
+            <a href="https://www.linkedin.com/in/joshua-sy-02a90a212/" target="_blank"><i class="fa fa-linkedin footer-link"></i></a>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="/js/main.js"></script>
+    </body>
 </html>
