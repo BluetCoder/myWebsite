@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+
+}
+.container {
+    width: 100%;
+}
+.container .row {
+    width: 80%;
+    margin: auto;
+}
+.container .row .header{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.container .row .header h1 {
+    padding-top: 30px;
+    font-size: 150px;
+    color:#2176FF;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 2s,
+        cursor .4s step-end infinite alternate;
+    /* -webkit-text-stroke: 0.3vw #04AA6D;
+    text-transform: uppercase;
+    position: relative; */
+}
+/* cursor blinking */
+@keyframes cursor {
+    50% {border-color: transparent}
+}
+
+/* typing effect */
+@keyframes typing {
+    from {width: 0}
+}
+/* .container .row .header h1::before{
+    content: attr(data-text);
+    position: absolute;
+    color: #04AA6D;
+    top:0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-right: 2px solid #04AA6D;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+
+@keyframes animate {
+    0%,10%,100%
+    {
+        width: 0;
+    }
+    70%,90%
+    {
+        width: 100%;
+    }
+} */
+
+.container .row .header p{
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #6e6e6e;
+}
+
+.container .row .about{
+    padding-top: 5%;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 5%;
+    background-color: #2176FF;
+    border-radius: 25px;
+}
+
+.container .row .about h3 {
+    font-size: 50px;
+    color: #2176FF;
+    padding-bottom: 30px;
+    -webkit-text-stroke: 0.1vw white;
+    text-transform: uppercase;
+    /* width: 100%; */
+    /* white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 2s,
+        cursor .4s step-end infinite alternate;
+    /* -webkit-text-stroke: 0.3vw #04AA6D;
+    text-transform: uppercase;
+    position: relative; */ */
+}
+
+.container .row .about h5 {
+    font-size: 30px;
+    color:white;
+    /* width: 100%; */
+    /* white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 2s,
+        cursor .4s step-end infinite alternate;
+    /* -webkit-text-stroke: 0.3vw #04AA6D;
+    text-transform: uppercase;
+    position: relative; */ */
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.content .card{
+    flex: 1;
+    margin: 50px 20px;
+    /* box-shadow: 0px 0px 5px 0px; rgba(0,0,0,0.1); */
+    background-color: #2176FF;
+   
+}
+
+.content .card img{
+    width: 100%;
+    height: auto;
+}
+
+.content .card h4{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.content .card p{
+    font-size: 15px;
+    color: white;
+    line-height: 1.5;
+    padding: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .content{
+        flex-direction: column;
+    }   
+}
